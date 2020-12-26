@@ -76,7 +76,7 @@ public class Parser {
         }
         else
         {
-            error("Excepting <article> THE or A but found "+ currentToken);
+            error("Expecting <article> THE or A but found "+ currentToken);
         }
     }
     //<noun> ::= MAN | DOG 
@@ -90,7 +90,7 @@ public class Parser {
         }
         else
         {
-            error("Excepting <noun> MAN or DOG but found "+ currentToken);
+            error("Expecting <noun> MAN or DOG but found "+ currentToken);
         }
     }
     //<verb> ::= BITES | PETS
@@ -104,7 +104,7 @@ public class Parser {
         }
         else
         {
-            error("Excepting <verb> BITES or PETS but found "+ currentToken);
+            error("Expecting <verb> BITES or PETS but found "+ currentToken);
         }
     }
     //<direct-object> ::= <article> <noun> 
